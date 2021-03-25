@@ -1,0 +1,368 @@
+.a {
+  width: 150%;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 900;
+}
+.b {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 90px;
+  width: 100%;
+}
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+body {
+  background-image: url("NCT/NCT4.png");
+
+  background-size: 1874px;
+  background-repeat: repeat;
+  font-family: Comic Sans MS, cursive, sans-serif;
+}
+.kk {
+  text-align: center;
+}
+.title {
+  border: none;
+  width: 75%;
+  height: 115px;
+  position: relative;
+  margin-left: 15%;
+  margin-top: -3px;
+  animation: up_down 3s infinite;
+  font-size: 100px;
+  font-family: Comic Sans MS, cursive, sans-serif;
+  color: black;
+  animation: scale 5s infinite;
+  text-align: center;
+}
+.chow {
+  border: none;
+  width: 100%;
+  height: 115px;
+  margin-top: 5px;
+}
+.hey {
+  padding-left: 15px 36px;
+}
+.h1 {
+  text-align: center;
+  background-color: lightyellow;
+  font-size: 50px;
+  font-family: Comic Sans MS, cursive, sans-serif;
+  width: 100%;
+}
+.h2 {
+  text-align: center;
+
+  background-color: lightgray;
+  height: 45px;
+}
+.font1 {
+  font-family: Comic Sans MS, cursive, sans-serif;
+  font-size: 17px;
+}
+.card1:hover {
+  filter: invert();
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7);
+}
+.firstmodal {
+  border: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(192, 192, 192, 0.5);
+  opacity: 0;
+  pointer-events: none;
+}
+.firstmodal:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+.selling {
+  border: none;
+  border-radius: 12px 16px;
+  position: relative;
+  width: 35%;
+  height: 85%;
+  background-color: white;
+  margin: auto;
+  margin-top: 5%;
+}
+.jason0 {
+  margin-top: -35.5px;
+  float: right;
+  background-color: grey;
+  border: none;
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.jason0:hover {
+  background-color: black;
+  color: white;
+}
+.jason {
+  padding-left: 100px;
+  padding-right: 30px;
+  margin-top: -35px;
+}
+.jason1 {
+  padding-left: 75px;
+  width: 75%;
+}
+.gift1 {
+  width: 300px;
+  padding-left: 150px;
+  margin-top: -21%;
+}
+
+.gift2 {
+  width: 300px;
+  padding-left: 150px;
+  margin-top: -25%;
+}
+.jason2 {
+  margin-left: 55%;
+  margin-top: 5%;
+}
+.jason3 {
+  margin-left: 55%;
+  margin-top: 0.5%;
+}
+.jason4 {
+  margin-left: 55%;
+  margin-top: 0.5%;
+}
+.jason5 {
+  margin-left: 55%;
+}
+.jason6 {
+  text-align: center;
+}
+.jason7 {
+  width: 54.5%;
+}
+.jason8 {
+  margin-left: 250px;
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.jason8:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid blue;
+}
+.jason9 {
+  margin-left: 625px;
+  padding-left: 5px;
+  background-color: white;
+  color: black;
+  font-size: 28px;
+}
+.jason9:hover {
+  background-color: orange;
+  color: white;
+}
+.gift1 {
+  width: 100%;
+  margin-top: 1px;
+  margin-left: -70px;
+  border: none;
+}
+.a {
+  float: left;
+}
+.a:hover {
+  color: pink;
+}
+.jason10 {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 16px 16px;
+  border-radius: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 550px;
+}
+.jason10:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid blue;
+}
+.jason11 {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 16px 16px;
+  border-radius: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.jason11:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid blue;
+}
+.jason12 {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 16px 16px;
+  border-radius: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 450px;
+}
+.jason12:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid blue;
+}
+.music {
+  text-align: center;
+}
+.blackborder {
+  border: 2px solid black;
+  width: 97%;
+  height: 750px;
+  background-color: #1a1a19;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lehao {
+  border: 2px solid #1a1a19;
+  width: 24%;
+  height: 35%;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.f4 {
+  margin-top: 45px;
+}
+.lehao1 {
+  border: 2px solid transparent;
+  width: 24%;
+  height: 35%;
+  margin-left: 450px;
+  margin-top: -267px;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.lehao2 {
+  border: 2px solid transparent;
+  width: 24%;
+  height: 35%;
+  margin-left: 900px;
+  margin-top: -267px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.lehao3 {
+  border: none;
+  width: 24%;
+  height: 35%;
+  margin-left: 1350px;
+  margin-top: -267px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.lehao4 {
+  width: 91%;
+}
+.lehao5 {
+  border: none;
+  width: 24%;
+  height: 250px;
+  margin-left: 1287px;
+  margin-top: -475px;
+}
+.lehao6 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.facebook {
+  width: 55px;
+  margin-left: 45px;
+}
+.ins {
+  width: 55px;
+  margin-left: 15px;
+}
+.youtube {
+  width: 55px;
+  margin-left: 15px;
+}
+.pin {
+  width: 55px;
+  margin-left: 15px;
+}
+.twitter {
+  width: 55px;
+  margin-left: 15px;
+}
+.lehao7 {
+  border: none;
+  color: white;
+  width: 50%;
+  height: 100px;
+  margin-left: 25%;
+  margin-top: 118px;
+}
+.lehao8 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logobutton {
+  width: 15px;
+}

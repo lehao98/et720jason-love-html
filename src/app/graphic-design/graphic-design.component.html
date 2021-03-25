@@ -1,0 +1,12 @@
+<h3>Graphic Design</h3>
+
+<h2>Logos, Posters, And General Graphic Design Projects</h2>
+
+<div class="graphic-design-item" *ngFor="let shipping of shippingCosts | async">
+  <span>{{ graphic-design.type }}</span>
+  <span>{{ graphic-design.price | currency }}</span>
+</div>
+
+<app-portfolio-lightbox
+  portfolioURL="/assets/graphic.json"
+></app-portfolio-lightbox>

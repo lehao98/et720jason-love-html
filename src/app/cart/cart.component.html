@@ -1,0 +1,42 @@
+<h3>Sign Up</h3>
+<p><strong>If you have an account, you can login in!</strong></p>
+<p>
+  <a routerLink="/shipping">Shipping Prices</a>
+</p>
+
+<div class="cart-item" *ngFor="let item of items">
+  <span>{{ item.name }} </span>
+  <span>{{ item.price | currency }}</span>
+</div>
+
+<form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
+  <div>
+    <label for="name">
+      Name
+    </label>
+    <input id="name" type="text" formControlName="name" />
+  </div>
+
+  <div>
+    <label for="address">
+      Address
+    </label>
+    <input id="address" type="text" formControlName="address" />
+  </div>
+
+  <button class="btn btn-outline-dark" type="submit">Sign up</button>
+
+  <button
+    onlick="log()"
+    style="margin-left:35px;"
+    class="btn btn-outline-dark"
+    type="submit"
+  >
+    <a routerLink="/graphic">Log in</a>
+  </button>
+  <script>
+    function log() {
+      alert("Thanks for logging in, Please feel free to post your arts!");
+    }
+  </script>
+</form>
